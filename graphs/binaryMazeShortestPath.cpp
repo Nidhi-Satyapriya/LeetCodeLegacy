@@ -43,3 +43,24 @@ int shortestPath(vector<vector<int>> &grid, pair<int, int> source, pair<int, int
 
     return -1;  // No path found
 }
+int main() {
+    vector<vector<int>> grid = {
+        {1, 0, 1, 1, 1},
+        {1, 1, 1, 0, 1},
+        {0, 1, 0, 1, 1},
+        {1, 1, 1, 1, 0},
+        {1, 0, 1, 1, 1}
+    };
+
+    pair<int, int> source = {0, 0};        
+    pair<int, int> destination = {4, 4};   
+
+    int result = shortestPath(grid, source, destination);
+
+    if (result != -1)
+        cout << "Shortest Path Length: " << result << endl;
+    else
+        cout << "No valid path found!" << endl;
+
+    return 0;
+}
