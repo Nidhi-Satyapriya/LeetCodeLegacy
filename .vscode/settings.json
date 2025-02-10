@@ -1,6 +1,7 @@
 {
     "files.associations": {
-        "ostream": "cpp"
+        "ostream": "cpp",
+        "vector": "cpp"
     },
     "bitoAI.codeCompletion.enableAutoCompletion": false
 }
