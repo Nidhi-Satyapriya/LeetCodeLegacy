@@ -1,0 +1,1 @@
+int painter(vector<int>)
